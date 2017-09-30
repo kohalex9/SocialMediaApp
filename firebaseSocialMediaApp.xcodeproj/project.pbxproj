@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		8798B2501F7FCA5F00253620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8798B24F1F7FCA5F00253620 /* AppDelegate.swift */; };
-		8798B2521F7FCA5F00253620 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8798B2511F7FCA5F00253620 /* ViewController.swift */; };
 		8798B2551F7FCA5F00253620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8798B2531F7FCA5F00253620 /* Main.storyboard */; };
 		8798B2571F7FCA5F00253620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8798B2561F7FCA5F00253620 /* Assets.xcassets */; };
 		8798B25A1F7FCA5F00253620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8798B2581F7FCA5F00253620 /* LaunchScreen.storyboard */; };
+		8798B2621F7FCA8100253620 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8798B2611F7FCA8100253620 /* GoogleService-Info.plist */; };
+		8798B2671F7FCE3100253620 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8798B2661F7FCE3100253620 /* SignInVC.swift */; };
+		BD53BEA41FA891CB234E4DA5 /* Pods_firebaseSocialMediaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A436D5A7563315F69C7A0025 /* Pods_firebaseSocialMediaApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2629613C093D7B4F891FDC56 /* Pods-firebaseSocialMediaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseSocialMediaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseSocialMediaApp/Pods-firebaseSocialMediaApp.release.xcconfig"; sourceTree = "<group>"; };
+		2EB77A3FB079E7AD428DFB5A /* Pods-firebaseSocialMediaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseSocialMediaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseSocialMediaApp/Pods-firebaseSocialMediaApp.debug.xcconfig"; sourceTree = "<group>"; };
 		8798B24C1F7FCA5E00253620 /* firebaseSocialMediaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebaseSocialMediaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8798B24F1F7FCA5F00253620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8798B2511F7FCA5F00253620 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8798B2541F7FCA5F00253620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8798B2561F7FCA5F00253620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8798B2591F7FCA5F00253620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8798B25B1F7FCA5F00253620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8798B2611F7FCA8100253620 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8798B2661F7FCE3100253620 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		A436D5A7563315F69C7A0025 /* Pods_firebaseSocialMediaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseSocialMediaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD53BEA41FA891CB234E4DA5 /* Pods_firebaseSocialMediaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		010FBD2DE354A7D9CE9BFDAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EB77A3FB079E7AD428DFB5A /* Pods-firebaseSocialMediaApp.debug.xcconfig */,
+				2629613C093D7B4F891FDC56 /* Pods-firebaseSocialMediaApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8514B554EDAE67F9F37CDCE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A436D5A7563315F69C7A0025 /* Pods_firebaseSocialMediaApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8798B2431F7FCA5E00253620 = {
 			isa = PBXGroup;
 			children = (
 				8798B24E1F7FCA5E00253620 /* firebaseSocialMediaApp */,
 				8798B24D1F7FCA5E00253620 /* Products */,
+				010FBD2DE354A7D9CE9BFDAD /* Pods */,
+				8514B554EDAE67F9F37CDCE1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +80,39 @@
 		8798B24E1F7FCA5E00253620 /* firebaseSocialMediaApp */ = {
 			isa = PBXGroup;
 			children = (
+				8798B2631F7FCDCA00253620 /* Model */,
+				8798B2641F7FCDD500253620 /* View */,
+				8798B2651F7FCDDB00253620 /* Controller */,
 				8798B24F1F7FCA5F00253620 /* AppDelegate.swift */,
-				8798B2511F7FCA5F00253620 /* ViewController.swift */,
 				8798B2531F7FCA5F00253620 /* Main.storyboard */,
 				8798B2561F7FCA5F00253620 /* Assets.xcassets */,
 				8798B2581F7FCA5F00253620 /* LaunchScreen.storyboard */,
 				8798B25B1F7FCA5F00253620 /* Info.plist */,
+				8798B2611F7FCA8100253620 /* GoogleService-Info.plist */,
 			);
 			path = firebaseSocialMediaApp;
+			sourceTree = "<group>";
+		};
+		8798B2631F7FCDCA00253620 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8798B2641F7FCDD500253620 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8798B2651F7FCDDB00253620 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8798B2661F7FCE3100253620 /* SignInVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8798B25E1F7FCA5F00253620 /* Build configuration list for PBXNativeTarget "firebaseSocialMediaApp" */;
 			buildPhases = (
+				46C3AAC0591A990EB26FFF4C /* [CP] Check Pods Manifest.lock */,
 				8798B2481F7FCA5E00253620 /* Sources */,
 				8798B2491F7FCA5E00253620 /* Frameworks */,
 				8798B24A1F7FCA5E00253620 /* Resources */,
+				6F58677484BE32829269C402 /* [CP] Embed Pods Frameworks */,
+				DD360BE821A881FFD2EBBEEA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8798B25A1F7FCA5F00253620 /* LaunchScreen.storyboard in Resources */,
+				8798B2621F7FCA8100253620 /* GoogleService-Info.plist in Resources */,
 				8798B2571F7FCA5F00253620 /* Assets.xcassets in Resources */,
 				8798B2551F7FCA5F00253620 /* Main.storyboard in Resources */,
 			);
@@ -132,12 +187,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46C3AAC0591A990EB26FFF4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebaseSocialMediaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F58677484BE32829269C402 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-firebaseSocialMediaApp/Pods-firebaseSocialMediaApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseSocialMediaApp/Pods-firebaseSocialMediaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD360BE821A881FFD2EBBEEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseSocialMediaApp/Pods-firebaseSocialMediaApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8798B2481F7FCA5E00253620 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8798B2521F7FCA5F00253620 /* ViewController.swift in Sources */,
+				8798B2671F7FCE3100253620 /* SignInVC.swift in Sources */,
 				8798B2501F7FCA5F00253620 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,12 +376,13 @@
 		};
 		8798B25F1F7FCA5F00253620 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB77A3FB079E7AD428DFB5A /* Pods-firebaseSocialMediaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JYP92526QQ;
 				INFOPLIST_FILE = firebaseSocialMediaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AK.firebaseSocialMediaApp;
+				PRODUCT_BUNDLE_IDENTIFIER = AK.PushMyNotifs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,12 +390,13 @@
 		};
 		8798B2601F7FCA5F00253620 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2629613C093D7B4F891FDC56 /* Pods-firebaseSocialMediaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JYP92526QQ;
 				INFOPLIST_FILE = firebaseSocialMediaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AK.firebaseSocialMediaApp;
+				PRODUCT_BUNDLE_IDENTIFIER = AK.PushMyNotifs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -304,6 +421,7 @@
 				8798B2601F7FCA5F00253620 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
